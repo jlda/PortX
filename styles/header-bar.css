@@ -1,0 +1,12 @@
+.header-bar
+{
+  height: 70px;
+  background-color: rgba(255,0,0,0.5);
+}
+
+#logo
+{
+  position: absolute;
+  margin-left: 30px;
+  margin-top: 25px;
+}
