@@ -1,5 +1,94 @@
-* {height: 100%;}
-body {
-  margin: 0;
-  font-family: Ubuntu;
+body
+{
+    font-family: ubuntu;
+    
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    background-color: #eee;
+}
+
+.customized-header
+{
+    height: 100%;
+    color: rgba(0,0,0,.7);
+    
+}
+
+#h1
+{
+    text-align: center;
+    padding-top: 12%;
+    font-size: 10em;
+}
+h2
+{
+    
+    text-align: center;
+    margin-top: 50px;  
+}
+
+.logo
+{
+    float: left;
+}
+
+#logo-svg
+{
+    width: 30%;
+    margin-top: 10px;
+    margin-left: 30px;
+    
+}
+
+.menu-opt
+{
+    float: right;
+    margin-top: 30px;
+    margin-right: 10px;
+}
+    #opt
+    {
+        margin-right: 20px;
+        text-decoration: none;
+    }
+
+
+#button
+{
+    
+    text-decoration: none;
+    text-align: center;
+    float: left;
+    position: relative;
+
+    width: 100px;
+    
+    display: inline-block;
+    margin: 30px auto;
+    padding: 0;
+    
+    overflow: hidden;
+    
+    border-width: 0;
+    outline: none;
+    /*border-radius: 2px;*/
+    box-shadow: 0 1px 4px rgba(0,0,0,.6);
+    
+    background-color: #342ecc;
+    color: #ecf0f1;
+    
+    display: block;
+    padding: 12px 24px;
+    
+    margin-top: 7%;
+    left: 7%;
+    
+    margin-left: 5%;
+
+}
+
+#button:hover, #button:focus
+{
+    background-color: #1b1776;
 }
